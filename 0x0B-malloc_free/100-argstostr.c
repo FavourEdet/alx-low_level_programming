@@ -43,8 +43,7 @@ char *argstostr(int ac, char **av)
 
 			if (av[i][j] == '\0')
 			{
-				str[k - 1] = '\n'; 4
-					;
+				str[k - 1] = '\n';
 					break;
 			}
 		}
