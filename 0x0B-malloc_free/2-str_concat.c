@@ -41,9 +41,7 @@ char *str_concat(char *s1, char *s2)
 }
 
 /**
- *
  * count_str1 - counts the number of characters in s1
- *
  * @s1: the string to be counted
  * Return: returns the number of characters an an int, returns 0 if s1 is NULL
  */
@@ -70,7 +68,7 @@ int count_str1(char *s1)
  * Return: returns the number of characters an an int, returns 0 if s2 is NULL
  */
 
- int count_str2(char *s2)
+int count_str2(char *s2)
 {
 	int i;
 	int c2 = 0;
